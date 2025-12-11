@@ -1,0 +1,9 @@
+# Arquivos do C# / .NET
+bin/
+obj/
+*.dll
+*.exe
+.vs/
+.vscode/
+*.csproj.user
+packages/
