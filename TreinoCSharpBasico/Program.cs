@@ -1,7 +1,9 @@
 ﻿System.Console.WriteLine("======Treino de C#======");
-EstruturaWhile.Executar();
+// EstruturaWhile.Executar();
 // EstruturaFor.Executar();
 //SwitchCase.Executar();
 // OperadoresLogicos.Executar();
 // Conversao.Executar();
 //  Operadores.Executar();
+// TrabalhandoComStrings.Executar();
+Buscas.Executar();
