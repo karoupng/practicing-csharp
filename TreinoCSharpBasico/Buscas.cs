@@ -16,6 +16,7 @@ class Buscas
         var utilizandoContain = paragrafo2.Contains("jogos", StringComparison.OrdinalIgnoreCase);
 
         var containsExato = paragrafo2.Contains("Jogos");
+        
 
         
 
