@@ -6,5 +6,6 @@
 // Conversao.Executar();
 //  Operadores.Executar();
 // TrabalhandoComStrings.Executar();
-// Buscas.Executar();
-ArrayListas.Executar();
+//  Buscas.Executar();
+// ArrayListas.Executar();
+ArraysListasPratica.Executar();
