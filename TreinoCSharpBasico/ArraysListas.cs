@@ -2,28 +2,29 @@ class ArrayListas
 {
     public static void Executar()
     {
-        var numbers = new int [] {0,1,2,3,4,5,6,7,8,9};
+       
         //inicializando matriz com dez valores
 
-        // int[] numbers = {0,1,2,3,4,5,6,7,8,9};
-
-        // var numbers = new int [10]; 
-        // //sem especificar valor, só com a capacidade
-
+        var numbers = new int[] {0,1,2,3,4,5,6,7,8,9};
+        //array vazio com capacidade para 10 elementos
         var numbersCopy = new int[10];
 
         for (var i = 0; i < numbers.Length; i++)
         {
-            numbersCopy[i] = numbers[i]; // copiando através do índice do colchete
-
+            //pega o valor na posição "i" do array numbers e copia para a mesma posição "i" no array numberscopy
+            numbersCopy[i] = numbers[i]; 
             var numbersString = "0 1 2 3 4 5 6 7 8 9";
+
+            //Criando uma string com números separados por espaço 
             var numbersArray = numbersString.Split(' ');
+            //quebra em múltiplas strings usando espaço como separador
             var numbersConverterString = Array.ConvertAll(numbersArray, Convert.ToInt32);
             
-            //Convert.ToInt32 converte o tipo de string para int, e ConvertAll converte todas strings de uma vez transformando em array
+            //ConvertAll pega cada string do array e converte para int
+            //Convert.ToInt32 é o método que faz a conversão de cada elemento 
         }
 
-        Console.WriteLine(numbersCopy[i]);
+        Console.WriteLine(string.Join(',', numbersCopy));
 
     }
 }
