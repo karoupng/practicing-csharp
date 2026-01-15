@@ -9,7 +9,7 @@ public class LinqNaPratica
     {
         //LINQ é uma ferramenta para filtrar, ordenar, transformar dados 
         #region LINQ
-            var ListaEstudante = new List<Estudante>
+        var ListaEstudante = new List<Estudante>
             {
                 new Estudante (1,"Karol", "09209738917", 100),
                 new Estudante (2, "Hayala","82738172967" , 35),
@@ -25,7 +25,7 @@ public class LinqNaPratica
         //Tem algum item nessa lista ?
         var any = ListaEstudante.Any(l => l.Nota == 100);
         //Single gera exceção se existir mais de um com o mesmo id
-        var single = ListaEstudante.Single(l => l.Id == 1 );
+        var single = ListaEstudante.Single(l => l.Id == 1);
         //Existe algum aluno com nota 0? Se não existir, retorna nulo, mas não gera exceção 
         var singleOrDefault = ListaEstudante.SingleOrDefault(l => l.Documento == "09209738917");
 
