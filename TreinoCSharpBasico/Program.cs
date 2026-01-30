@@ -13,4 +13,6 @@ System.Console.WriteLine("======Treino de C#======");
 //  Buscas.Executar();
 // ArrayListas.Executar();
 // ArraysListasPratica.Executar();
-LinqNaPratica.Executar();
+// LinqNaPratica.Executar();
+// DataHora.Executar();
+Formatacao.Executar();
