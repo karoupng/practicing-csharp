@@ -19,7 +19,7 @@ class ArrayListas
             var numbersArray = numbersString.Split(' ');
             //quebra em múltiplas strings usando espaço como separador
             var numbersConverterString = Array.ConvertAll(numbersArray, Convert.ToInt32);
-            
+           
             //ConvertAll pega cada string do array e converte para int
             //Convert.ToInt32 é o método que faz a conversão de cada elemento 
         }
